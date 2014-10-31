@@ -1,0 +1,7 @@
+
+<%= form_tag create_user_path, :method => :post do %>
+   email : <%=text_field_tag :email%><br />
+   password :<%=text_field_tag :password%><br />
+   
+   <%=submit_tag "sign up"%>
+<%end%>
