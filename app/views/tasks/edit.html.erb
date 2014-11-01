@@ -1,0 +1,7 @@
+<h2>This is the edit page for task id: <%= @id %></h2>
+
+  <%= form_tag task_path, :method => :put %>
+   description : <%=text_field_tag :description%><br/>
+   Complete? : <%=check_box_tag :is_complete%><br/>
+  
+   <%=submit_tag "update"%>

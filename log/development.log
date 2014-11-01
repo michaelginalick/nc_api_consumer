@@ -23476,3 +23476,3324 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 13:46:37
 
 
 Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 13:46:37 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 13:47:48 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2064ms (Views: 309.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 13:47:50 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 13:47:53 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+Completed 500 Internal Server Error in 15ms
+
+ActionView::MissingTemplate (Missing template tasks/edit, application/edit with {:locale=>[:en], :formats=>[:html, :xml], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/michaelginalick/Desktop/nc_api_consumer/app/views"
+):
+  actionview (4.1.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.5) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.5) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.5) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.5) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.5) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.1.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.5) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.5) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.5) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.5) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.5) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.7ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 13:47:53 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+Completed 500 Internal Server Error in 2ms
+
+ActionView::MissingTemplate (Missing template tasks/edit, application/edit with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/michaelginalick/Desktop/nc_api_consumer/app/views"
+):
+  actionview (4.1.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.5) lib/action_view/lookup_context.rb:124:in `find'
+  actionview (4.1.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.1.5) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.5) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.5) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.5) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.1.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.5) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.5) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.5) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.5) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.5) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.6ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:03:43 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 995ms (Views: 420.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:03:44 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:03:46 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (54.8ms)
+Completed 500 Internal Server Error in 60ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/tasks/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.5ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:03:47 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/tasks/edit.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:03:59 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `description' for nil:NilClass):
+    1: <h2>This is the edit for <%=@task.description%></h2>
+    2: 
+    3:   <p>
+    4:     <%= label :description %><br>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184091077500'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.9ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:05:28 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+...e;@output_buffer.append=(@task(h["description"]));@output_bu...
+...                               ^
+/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...ppend=(@task(h["description"]));@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.8ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:05:40 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...ffer.append=(h["description"]));@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:05:55 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (1 for 2..4)):
+    1: <h2>This is the edit page</h2>
+    2: 
+    3:   <p>
+    4:     <%= label :description %><br>
+    5:     <%= text_field :description %>
+    6:   </p>
+    7:  
+  app/views/tasks/edit.html.erb:4:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184093438120'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.6ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:08:55 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:11:35 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:12:28 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 117ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:12:29 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:12:32 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 794ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:12:33 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:12:34 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:13:59 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h2>This is the edit page <%h["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184096087940'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:14:42 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page <%=@task["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184086136340'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.3ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:15:02 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+...e;@output_buffer.append=(@task(h["id"]));@output_buffer.safe...
+...                               ^
+/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+..._buffer.append=(@task(h["id"]));@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.6ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:15:16 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h2>This is the edit page <%=(h["id"])%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184091206220'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:15:56 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...the edit page '.freeze;h["id"]);@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:16:10 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h2>This is the edit page <%= h["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184092749340'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.2ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 161ms (Views: 160.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:16:29 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:16:45 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page <%= @task["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184091716860'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:17:41 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h2>This is the edit page <%= @task.id%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184092487780'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.8ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:04 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:18:14 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (59.3ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h2>This is the edit page <%= h["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184089548540'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.1ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:31 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:18:50 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:18:51 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:19:20 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:19:21 -0500
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"this is a test", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 400ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 276ms (Views: 127.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:21:39 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:22:09 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 2096ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:22:12 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:32:04 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (32.2ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page<%=@todos["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184091589060'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (24.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (102.8ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:32:05 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page<%=@todos["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184092307560'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.1ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:32:20 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (31.5ms)
+Completed 500 Internal Server Error in 35ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting ')'
+...@output_buffer.append=(@todos h["id"]);@output_buffer.safe_a...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected tIDENTIFIER, expecting ')'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.5ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 154ms (Views: 153.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:08 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:09 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:33:14 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:33:49 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1)):
+    1: <h2>This is the edit page<%= h["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184093375020'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.7ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:34:11 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+...;@output_buffer.append=( @task(h["id"]));@output_buffer.safe...
+...                               ^
+/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...buffer.append=( @task(h["id"]));@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:34:22 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+...@output_buffer.append=( @todos(h["id"]));@output_buffer.safe...
+...                               ^
+/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...uffer.append=( @todos(h["id"]));@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:34:27 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 62ms
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+...;@output_buffer.append=( @todo(h["id"]));@output_buffer.safe...
+...                               ^
+/Users/michaelginalick/Desktop/nc_api_consumer/app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+...buffer.append=( @todo(h["id"]));@output_buffer.safe_append='...
+...                               ^):
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected '(', expecting ')'
+  app/views/tasks/edit.html.erb:1: syntax error, unexpected ')', expecting keyword_end
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:34:38 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page<%= @todos["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184068906260'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:34:41 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page<%= @todos["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184068906260'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:35:19 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `find' for nil:NilClass):
+  app/controllers/tasks_controller.rb:15:in `edit'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:38:30 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `find' for nil:NilClass):
+  app/controllers/tasks_controller.rb:15:in `edit'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:38:36 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    1: <h2>This is the edit page<%= @todos["id"]%></h2>
+    2: 
+    3:   <%= form_tag tasks_path %>
+    4:    description : <%=text_field_tag :description%><br/>
+  app/views/tasks/edit.html.erb:1:in `_app_views_tasks_edit_html_erb__4224161025034684419_70184068906260'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.1ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:38:48 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:39:10 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 270ms
+
+ActionView::Template::Error (undefined method `show_task_path' for #<#<Class:0x007faa03f40d58>:0x007faa03f48490>):
+    19:       <%= link_to "Edit", edit_task_path(h["id"]) %>
+    20:       </td>
+    21:       <td>
+    22:         <%= link_to "show", show_task_path(h["id"]) %></td>
+    23:     </tr>
+    24:    <%end%>
+    25:  </tbody>
+  app/views/tasks/index.html.erb:22:in `block in _app_views_tasks_index_html_erb___3534032123892095670_70184093766740'
+  app/views/tasks/index.html.erb:13:in `each'
+  app/views/tasks/index.html.erb:13:in `_app_views_tasks_index_html_erb___3534032123892095670_70184093766740'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:39:39 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 220ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:39:40 -0500
+
+
+Started GET "/tasks/1436" for 127.0.0.1 at 2014-11-01 14:39:43 -0500
+
+AbstractController::ActionNotFound (The action 'show' could not be found for TasksController):
+  actionpack (4.1.5) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.5) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.9ms)
+
+
+Started GET "/tasks/1436" for 127.0.0.1 at 2014-11-01 14:39:43 -0500
+
+AbstractController::ActionNotFound (The action 'show' could not be found for TasksController):
+  actionpack (4.1.5) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.5) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.5) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.5) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.5) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.5) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:41:11 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 152ms (Views: 151.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:44:46 -0500
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 14:45:49 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 836ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 262ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:45:50 -0500
+
+
+Started GET "/tasks/1444/edit" for 127.0.0.1 at 2014-11-01 14:45:57 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1444"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 14:46:02 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"edit", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 224ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 183ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:03 -0500
+
+
+Started GET "/tasks/1445/edit" for 127.0.0.1 at 2014-11-01 14:46:39 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1445"}
+  Rendered tasks/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 14:46:43 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"edit", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 232ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:46:43 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 190ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:46:44 -0500
+
+
+Started GET "/tasks/1445/edit" for 127.0.0.1 at 2014-11-01 14:48:55 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1445"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 14:49:01 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"hjhj", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 291ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:49:01 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 197ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:49:02 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 14:52:20 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 14:52:23 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"wew", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 705ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 280ms (Views: 143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 14:52:24 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 560ms (Views: 204.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:10:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:48 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:10:50 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 150ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 15:10:52 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 231ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 187ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:10:53 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:11:59 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 194ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:00 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:12:02 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 220ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 188ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:12:03 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:14:30 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 375ms (Views: 227.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:31 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:14:32 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:43 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:14:53 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 269ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 198ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:14:55 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:14:59 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:22:56 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 912ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:22:58 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:23:00 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 72ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:24:00 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 297ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:24:01 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 647ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:28:15 -0500
+
+
+Started GET "/tasks/1436/edit.this%20is%20a%20test" for 127.0.0.1 at 2014-11-01 15:28:19 -0500
+Processing by TasksController#edit as 
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 190ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:28 -0500
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2014-11-01 15:29:49 -0500
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 15:29:58 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"908098", "commit"=>"save"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 227ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:29:58 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 266ms (Views: 141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:29:59 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 15:30:18 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123123123", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 203ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 178ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:30:25 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:57:39 -0500
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/controllers/tasks_controller.rb:18: syntax error, unexpected '='
+		 complete? = params["is_complete"].to_i
+		            ^):
+  app/controllers/tasks_controller.rb:18: syntax error, unexpected '='
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (25.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.9ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:58:29 -0500
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/controllers/tasks_controller.rb:18: syntax error, unexpected '='
+		 complete? = params["is_complete"].to_i
+		            ^):
+  app/controllers/tasks_controller.rb:18: syntax error, unexpected '='
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.2ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 437ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 15:59:34 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:00:40 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 189ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:00:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:00:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:41 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:00:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:41 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:41 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:41 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:00:42 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 229ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 193ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:00:51 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:02:10 -0500
+
+SyntaxError (/Users/michaelginalick/Desktop/nc_api_consumer/app/controllers/tasks_controller.rb:19: syntax error, unexpected '='
+		 complete? = params["is_complete"].to_i
+		            ^):
+  app/controllers/tasks_controller.rb:19: syntax error, unexpected '='
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:02:35 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 204ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:02:36 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:03:50 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 225ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:03:51 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:04:27 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 192ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:04:27 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:04:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:27 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:28 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:28 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:04:28 -0500
+
+
+Started GET "/tasks/1453/edit" for 127.0.0.1 at 2014-11-01 16:04:30 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1453"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 134ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:04:36 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123234", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 648ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 207ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:04:37 -0500
+
+
+Started GET "/tasks/1454/edit" for 127.0.0.1 at 2014-11-01 16:05:21 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1454"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 136ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"1234", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 217ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 217ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:05:28 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:06:58 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:07:05 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"1436", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 210ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:07:05 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 285ms (Views: 148.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:07:06 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:09:25 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"321", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 218ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 265ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:09:33 -0500
+
+
+Started GET "/tasks/1457/edit" for 127.0.0.1 at 2014-11-01 16:13:15 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1457"}
+  Rendered tasks/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:13:21 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"456", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 626ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 188ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:13:22 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:13:52 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"32e", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 211ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 283ms (Views: 137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:14:23 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:17:43 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2014-11-01 16:17:50 -0500
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123321", "is_complete"=>"1", "commit"=>"update"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 668ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 185ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:17:51 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 197ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:28 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 201ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:32 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 211ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:18:48 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:18:53 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+Completed 500 Internal Server Error in 25ms
+
+ArgumentError (wrong number of arguments (0 for 2..3)):
+  app/controllers/tasks_controller.rb:28:in `edit'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.6ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:18:53 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (0 for 2..3)):
+  app/controllers/tasks_controller.rb:28:in `edit'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 297ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:19:25 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:19:27 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:24:38 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 1535ms (Views: 531.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:24:45 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:24:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:24:46 -0500
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 292ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:27:07 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:27:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:27:08 -0500
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:28:03 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 175ms (Views: 173.8ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/tasks" for 127.0.0.1 at 2014-11-01 16:28:12 -0500
+
+ActionController::RoutingError (No route matches [PUT] "/tasks"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (51.1ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (672.0ms)
+
+
+Started PUT "/tasks" for 127.0.0.1 at 2014-11-01 16:29:19 -0500
+
+ActionController::RoutingError (No route matches [PUT] "/tasks"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/michaelginalick/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.7ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 141ms (Views: 140.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:33:55 -0500
+
+
+Started PUT "/tasks/1436" for 127.0.0.1 at 2014-11-01 16:34:02 -0500
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123", "is_complete"=>"1", "commit"=>"update", "id"=>"1436"}
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (0 for 2..3)):
+  app/controllers/tasks_controller.rb:31:in `update'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.3ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:38:01 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 149ms (Views: 147.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:02 -0500
+
+
+Started PUT "/tasks/1436" for 127.0.0.1 at 2014-11-01 16:38:09 -0500
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123", "is_complete"=>"1", "commit"=>"update", "id"=>"1436"}
+Completed 500 Internal Server Error in 2ms
+
+TypeError (no implicit conversion of Fixnum into String):
+  app/controllers/tasks_controller.rb:32:in `+'
+  app/controllers/tasks_controller.rb:32:in `update'
+
+
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/michaelginalick/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.2ms)
+
+
+Started GET "/tasks/1436/edit" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1436"}
+  Rendered tasks/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:38:56 -0500
+
+
+Started PUT "/tasks/1436" for 127.0.0.1 at 2014-11-01 16:39:01 -0500
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xCKrv89SlHYOMSAMCQbgLI3l4u9DIVKsWjeMUPjnn1Q=", "description"=>"123", "is_complete"=>"1", "commit"=>"update", "id"=>"1436"}
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 336ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 205ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-01 16:39:02 -0500

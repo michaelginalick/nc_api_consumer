@@ -6,24 +6,40 @@ class TasksController < ApplicationController
     response = "http://recruiting-api.nextcapital.com/users/"+session[:user_id].to_s+"/todos.json?api_token="+session[:api_token]
     a = RestClient.get response, :Content_type => 'application/json'	
 
+    p a
+
     @todos = JSON.parse(a)
 
     p @todos
-
-    p @todos[0][:id]
-    
-	end
+  	end
 
 	def edit
+		@id = params["id"]
+	end
+
+	def update
+
+		 #p params
+		 task_id = params["id"]
+
+		 p params["is_complete"].to_i
+
+		 params["is_complete"].to_i == 1
+		 	 p todo = {"todo" => {"description" => "Updated description", "is_complete" => true}}
+		 	  api_token = {"api_token" => session[:api_token] }
+		 	 p data = api_token.merge(todo)
+		 	  p data 
+		      put = RestClient.put "http://recruiting-api.nextcapital.com/users/"+session[:user_id].to_s+"/todos/"+task_id, data, :Content_type => 'application/json'
+		 
+		 	  redirect_to tasks_path
 	end
 
 	def new
-		#session[:user_id] =  h["id"]
+		
 	end
 
 	def create
 		todo = params.to_hash
-		session[:user_id]
 		api_token = {"api_token" => session[:api_token] }
 		
 		payload = todo.merge(api_token)

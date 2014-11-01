@@ -1,7 +1,7 @@
 <%= link_to "Create New Task", new_task_path %>
 <%if @todos.present? %>
   <p>Below is the list of tasks</p>
-  <table width "100"> 
+  <table> 
     <thead>
       <tr>
         <th>ID</th>
@@ -16,7 +16,7 @@
       <td><%=h["description"]%></td>
       <td><%=h["is_complete"]%></td>
       <td>
-      <%= link_to "Edit", edit_task_path(h["id"]) %>
+      <%= link_to "Edit", edit_task_path(h["id"])%>
       </td>
     </tr>
    <%end%>
