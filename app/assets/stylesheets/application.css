@@ -12,4 +12,16 @@
  *
  *= require_tree .
  *= require_self
+ *= require jquery-ui
  */
+
+
+table {
+    border-spacing: collapse;
+    border-spacing: 0;
+}
+td {
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+}

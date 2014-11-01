@@ -2,12 +2,19 @@
 <html>
 <head>
   <title>ApiConsumer</title>
+
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+   <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+
 </head>
 <body>
-
+	<script>$("#sortable").sortable();</script>
 <%= yield %>
 
 </body>
