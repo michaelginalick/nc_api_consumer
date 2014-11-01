@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
   
-  resources :users do
-    resources :tasks
-  end
+  resources :users
+  resources :tasks
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
    root 'users#index'
+   #post ':tasks_controller(/:post(/:id(.:format)))'
 
    post '/users/sign_in' => 'users#sign_in', :as => 'sign_in'
 

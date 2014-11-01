@@ -1,24 +1,27 @@
-<%= link_to "Create New Task", new_user_task_path %>
+<%= link_to "Create New Task", new_task_path %>
 <%if @todos.present? %>
-  <p>Below is the list of users</p>
-  <table width="100%">
+  <p>Below is the list of tasks</p>
+  <table width "100"> 
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>description</th>
+        <th>is complete</th>
+      </tr>
+    <thead>
+    <tbody>
+    <%@todos.each do |h|%>
     <tr>
-      <td>ID</td>
-      <td>first_name</td>
-      <td>last_name</td>
-      <td>email</td>
-      <td>Action</td>
-    </tr>
-    
-    <%@todos.each do |u|%>
-    <tr>
-      <td><%=u[:id]%></td>
+      <td><%=h["id"]%></td>
+      <td><%=h["description"]%></td>
+      <td><%=h["is_complete"]%></td>
       <td>
-        <%= link_to "Edit", edit_user_task(u[:id]) %> | 
+      <%= link_to "Edit", edit_task_path(h["id"]) %>
       </td>
     </tr>
    <%end%>
+ </tbody>
   </table>
 <%else%>
-  <p>No User is Found</p>
+  <p>No Tasks are Found</p>
 <%end%>
