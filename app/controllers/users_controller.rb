@@ -4,10 +4,7 @@ class UsersController < ApplicationController
  	
   def index
   end
-
-  def log_in
-    
-  end  
+ 
 
  def sign_in
      begin
@@ -20,9 +17,7 @@ class UsersController < ApplicationController
           if response_code == 400
               flash[:notice] = "Invalid email/password. Please try again."
               redirect_to root_path and return
-         else
-              redirect_to log_in_path
-         end    
+          end    
       end     
       redirect_to tasks_path      
   end

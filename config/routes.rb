@@ -11,7 +11,6 @@ Rails.application.routes.draw do
    #post ':tasks_controller(/:post(/:id(.:format)))'
 
    get '/users/sign_in' => 'users#sign_in', :as => 'sign_in'
-   get 'users/log_in' => 'users#log_in', :as => 'logging_in'
    post '/users/create' => 'users#user_create', :as => 'create_user'
 
    post '/tasks/index' => 'tasks#index', :as => 'log_in'
