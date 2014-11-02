@@ -12,6 +12,10 @@
   <%= csrf_meta_tags %>
     <%= javascript_include_tag "vendor/modernizr" %>
 
+    <% flash.each do |key, value| %>
+  		<%= content_tag :div, value, class: "flash #{key}" %>
+	<% end %>
+
 </head>
 <body>
 	<script>$("#sortable").sortable();</script>

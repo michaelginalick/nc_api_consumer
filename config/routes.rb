@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
-  resources :users
-  resources :tasks
+  resources :users, only: [:index, :show]
+  resources :tasks, except: [:destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -11,11 +11,10 @@ Rails.application.routes.draw do
    #post ':tasks_controller(/:post(/:id(.:format)))'
 
    post '/users/sign_in' => 'users#sign_in', :as => 'sign_in'
-
    post '/users/create' => 'users#user_create', :as => 'create_user'
 
+   post '/tasks/log_in' => 'tasks#log_in', :as => 'log_in'
 
-   get '/users/sign_out' => 'users#sign_out', :as => 'sign_out'
 
    #get '/users/show' => 'users#show', :as => 'show'
 

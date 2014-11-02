@@ -4,4 +4,9 @@
    password :<%=text_field_tag :password%><br />
    
    <%=submit_tag "sign up"%>
+
 <%end%>
+
+<%= flash[:message] %>
+
+<%= link_to "Login", sign_in_path %>
