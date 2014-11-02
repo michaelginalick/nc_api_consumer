@@ -1,4 +1,7 @@
-<%= form_tag tasks_path %>
-   description : <%=text_field_tag :description%><br/>
+
+<div class="small-3 columns">
+	<%= form_tag tasks_path %>
+   Description: <%=text_field_tag :description%><br/>
   
-   <%=submit_tag "save"%>
+   <button class="button">Save</button>
+</div>   

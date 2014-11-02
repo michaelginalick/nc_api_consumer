@@ -1,12 +1,15 @@
+<div class="sign-in">
+ <div class="small-3 columns">
+	<%= form_tag create_user_path, :method => :post do %>
+	   Email: <%=text_field_tag :email%><br />
+	   Password:<%=password_field_tag :password%><br />
+	   
+	    <button class="button">Sign up</button>
 
-<%= form_tag create_user_path, :method => :post do %>
-   email : <%=text_field_tag :email%><br />
-   password :<%=text_field_tag :password%><br />
-   
-   <%=submit_tag "sign up"%>
+	<%end%>
 
-<%end%>
+ </div>
+</div>  	
 
 <%= flash[:message] %>
 
-<%= link_to "Login", sign_in_path %>

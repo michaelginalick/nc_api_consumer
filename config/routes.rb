@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  resources :users, only: [:index, :show]
+  resources :users, only: [:index]
   resources :tasks, except: [:destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -10,7 +10,8 @@ Rails.application.routes.draw do
    root 'users#index'
    #post ':tasks_controller(/:post(/:id(.:format)))'
 
-   post '/users/sign_in' => 'users#sign_in', :as => 'sign_in'
+   get '/users/sign_in' => 'users#sign_in', :as => 'sign_in'
+   get 'users/log_in' => 'users#log_in', :as => 'logging_in'
    post '/users/create' => 'users#user_create', :as => 'create_user'
 
    post '/tasks/index' => 'tasks#index', :as => 'log_in'
