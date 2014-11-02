@@ -58,7 +58,6 @@ class TasksController < ApplicationController
 	            	 redirect_to root_path and return
 	            end
          end  
-         redirect_to tasks_path
-         
+         redirect_to log_in_path        
     end
 end

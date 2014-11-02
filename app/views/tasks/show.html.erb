@@ -1,0 +1,27 @@
+<%= link_to "Create New Task", new_task_path %>
+<%if @todos.present? %>
+  <p>Below is the list of tasks</p>
+  <table> 
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>description</th>
+        <th>is complete</th>
+      </tr>
+    <thead>
+    <tbody>
+    <%@todos.each do |h|%>
+    <tr>
+      <td><%=h["id"]%></td>
+      <td><%=h["description"]%></td>
+      <td><%=h["is_complete"]%></td>
+      <td>
+      <%= link_to "Edit", edit_task_path(h["id"])%>
+      </td>
+    </tr>
+   <%end%>
+ </tbody>
+  </table>
+<%else%>
+  <p>No Tasks are Found</p>
+<%end%>

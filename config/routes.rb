@@ -13,7 +13,7 @@ Rails.application.routes.draw do
    post '/users/sign_in' => 'users#sign_in', :as => 'sign_in'
    post '/users/create' => 'users#user_create', :as => 'create_user'
 
-   post '/tasks/log_in' => 'tasks#log_in', :as => 'log_in'
+   post '/tasks/index' => 'tasks#index', :as => 'log_in'
 
 
    #get '/users/show' => 'users#show', :as => 'show'
